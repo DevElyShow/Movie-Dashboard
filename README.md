@@ -1,131 +1,156 @@
-# 🚀 Projeto Web com Consumo de API (HTML, CSS e JavaScript)
+# 🎬 Movie Dashboard
 
-## 📌 Descrição
+Uma aplicação web de dashboard de filmes desenvolvida com **HTML, CSS e JavaScript puro**, que consome uma API pública para buscar filmes em tempo real.
 
-Este projeto é uma aplicação web desenvolvida utilizando apenas tecnologias fundamentais do front-end: **HTML**, **CSS** e **JavaScript puro (Vanilla JS)**, com integração a uma API externa para consumo de dados dinâmicos.
-
-O objetivo principal do projeto é demonstrar habilidades em desenvolvimento web moderno sem o uso de frameworks, focando em organização de código, boas práticas e manipulação de dados via API.
+🔗 **Deploy (Vercel):** https://movie-dashboard.vercel.app/
+📦 **Repositório:** https://github.com/DevElyShow/Movie-Dashboard
 
 ---
 
-## 🎯 Funcionalidades
+## 📸 Preview do Projeto
 
-* Consumo de API externa
-* Renderização dinâmica de dados na interface
-* Interface responsiva
-* Organização modular do código
-* Manipulação do DOM com JavaScript
-* Tratamento de erros na requisição da API
-* Estrutura de projeto escalável
+### 🔎 Tela Principal
+
+<img src="./assets/preview.png" alt="Tela principal do Movie Dashboard" width="100%"/>
+
+### 🎬 Busca de Filmes em Funcionamento
+
+<img src="./assets/busca.png" alt="Busca de filmes no Movie Dashboard" width="100%"/>
+
+### 📱 Interface do Dashboard
+
+<img src="./assets/dashboard.png" alt="Interface do Movie Dashboard" width="100%"/>
+
+> As imagens utilizadas neste README estão localizadas na pasta `/assets` do projeto.
+
+---
+
+## 🚀 Sobre o Projeto
+
+O **Movie Dashboard** é uma aplicação front-end que permite pesquisar filmes em tempo real utilizando uma API externa.
+O projeto foi desenvolvido com foco em consolidar conhecimentos essenciais de desenvolvimento web, especialmente consumo de API, manipulação do DOM e organização modular do código.
+
+Este projeto faz parte do meu processo de evolução na área de desenvolvimento, com foco em Front-End e construção de um portfólio sólido para o mercado de tecnologia.
+
+---
+
+## ✨ Funcionalidades
+
+* 🔎 Busca de filmes por nome
+* 🎬 Listagem dinâmica de resultados
+* 🖼️ Exibição de pôster, título e ano do filme
+* ⏳ Loader durante requisições à API
+* ⌨️ Busca ao pressionar a tecla Enter
+* 📱 Layout responsivo
+* 🎨 Interface moderna com CSS Grid e Flexbox
+* ⚡ Consumo de API com Async/Await
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 * HTML5
-* CSS3
+* CSS3 (Flexbox e Grid)
 * JavaScript (ES6+)
-* Fetch API
+* Fetch API (Consumo de API REST)
+* Vercel (Deploy e hospedagem)
 
 ---
 
-## 📁 Estrutura do Projeto
+## 🌐 API Utilizada
 
-```
-projeto-api/
+Este projeto utiliza a API pública:
+
+* OMDb API (Open Movie Database)
+
+A API é responsável por fornecer os dados dos filmes com base na busca realizada pelo usuário em tempo real.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+Movie-Dashboard/
 │
 ├── index.html
-├── README.md
 │
-├── src/
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   ├── api/
-│   │   │   └── api.js
-│   │   ├── modules/
-│   │   │   └── ui.js
-│   │   └── main.js
-│   │
-│   └── assets/
-│       └── imagens/
+├── css/
+│   └── style.css
 │
-└── .gitignore
+├── js/
+│   ├── api.js
+│   ├── ui.js
+│   └── main.js
+│
+├── assets/
+│   └── (imagens do projeto para o README)
+│
+└── README.md
 ```
 
 ---
 
-## ▶️ Como Executar o Projeto
-
-### 1️⃣ Clonar o repositório
+## ⚙️ Como Executar o Projeto Localmente
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+# Clone o repositório
+git clone https://github.com/DevElyShow/Movie-Dashboard.git
+
+# Acesse a pasta do projeto
+cd Movie-Dashboard
+
+# Abra o projeto no VS Code
+code .
+
+# Execute com Live Server ou abra o index.html no navegador
 ```
 
-### 2️⃣ Acessar a pasta do projeto
+---
 
-```bash
-cd seu-repositorio
-```
+## 🧠 Conceitos Aplicados no Projeto
 
-### 3️⃣ Executar o projeto
+Durante o desenvolvimento deste dashboard foram aplicados conceitos importantes para o mercado Front-End:
 
-Basta abrir o arquivo `index.html` no navegador.
-
-Ou, se preferir utilizar uma extensão de servidor local (recomendado):
-
-* Live Server (VS Code)
+* Consumo de API REST com Fetch
+* Programação assíncrona (Async/Await)
+* Manipulação do DOM com JavaScript
+* Organização de código em módulos (api, ui, main)
+* Estruturação semântica com HTML
+* Estilização responsiva com CSS
+* Boas práticas de organização de projetos
 
 ---
 
-## 🌐 Integração com API
+## 🎯 Objetivo do Projeto
 
-O projeto realiza requisições assíncronas utilizando a **Fetch API**, permitindo:
+O principal objetivo deste projeto é fortalecer minhas habilidades em desenvolvimento Front-End, criando aplicações reais que consomem APIs e simulam cenários encontrados no mercado de trabalho.
 
-* Buscar dados em tempo real
-* Atualizar a interface dinamicamente
-* Melhor experiência do usuário
+Ele compõe meu portfólio como estudante de Análise e Desenvolvimento de Sistemas, com foco na transição da área de Help Desk para Desenvolvimento Web.
 
 ---
 
-## 💡 Aprendizados Aplicados
+## 📈 Possíveis Melhorias (Roadmap)
 
-Durante o desenvolvimento deste projeto foram praticados:
-
-* Organização de pastas e arquitetura de projeto
-* Consumo de APIs REST
-* Programação assíncrona (Promises / Async & Await)
-* Boas práticas de código limpo
-* Separação de responsabilidades (HTML, CSS e JS)
-
----
-
-## 📱 Responsividade
-
-A interface foi desenvolvida com foco em responsividade, garantindo uma boa experiência tanto em dispositivos móveis quanto em desktops.
-
----
-
-## 🚀 Possíveis Melhorias Futuras
-
-* Implementação de paginação
-* Filtros avançados de busca
-* Dark Mode
-* Testes automatizados
-* Migração futura para React ou outro framework
+* ⭐ Sistema de favoritos com LocalStorage
+* 🌙 Dark/Light Mode
+* 🎥 Página de detalhes do filme
+* 🔍 Busca em tempo real (Live Search)
+* 📊 Filtros por ano e tipo de conteúdo
+* 🚀 Refatoração futura para React
 
 ---
 
 ## 👨‍💻 Autor
 
 Desenvolvido por **Elydeivison Cesar**
-Estudante de Desenvolvimento Full Stack
+
+* 🎓 Estudante de Análise e Desenvolvimento de Sistemas
+* 💻 Foco em Desenvolvimento Front-End
+* 🚀 Em transição para a área de Desenvolvimento Web
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
-Sinta-se livre para usar, estudar e modificar.
+Este projeto foi desenvolvido para fins de estudo e portfólio.
+Sinta-se à vontade para clonar, estudar e utilizar como base para aprendizado.
