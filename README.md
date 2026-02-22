@@ -11,26 +11,18 @@ Uma aplicação web de dashboard de filmes desenvolvida com **HTML, CSS e JavaSc
 
 ### 🔎 Tela Principal
 
-<img src="./assets/preview.png" alt="Tela principal do Movie Dashboard" width="100%"/>
+<img src="./assets/img/tela-principal.png" alt="Tela principal do Movie Dashboard" width="100%"/>
 
 ### 🎬 Busca de Filmes em Funcionamento
 
-<img src="./assets/busca.png" alt="Busca de filmes no Movie Dashboard" width="100%"/>
-
-### 📱 Interface do Dashboard
-
-<img src="./assets/dashboard.png" alt="Interface do Movie Dashboard" width="100%"/>
-
-> As imagens utilizadas neste README estão localizadas na pasta `/assets` do projeto.
+<img src="./assets/img/tela-pesquisa.png" alt="Busca de filmes no Movie Dashboard" width="100%"/>
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-O **Movie Dashboard** é uma aplicação front-end que permite pesquisar filmes em tempo real utilizando uma API externa.
+O **TeleFilmes** é uma aplicação front-end que permite pesquisar filmes em tempo real utilizando uma API externa.
 O projeto foi desenvolvido com foco em consolidar conhecimentos essenciais de desenvolvimento web, especialmente consumo de API, manipulação do DOM e organização modular do código.
-
-Este projeto faz parte do meu processo de evolução na área de desenvolvimento, com foco em Front-End e construção de um portfólio sólido para o mercado de tecnologia.
 
 ---
 
@@ -146,7 +138,6 @@ Desenvolvido por **Elydeivison Cesar**
 
 * 🎓 Estudante de Análise e Desenvolvimento de Sistemas
 * 💻 Foco em Desenvolvimento Front-End
-* 🚀 Em transição para a área de Desenvolvimento Web
 
 ---
 
