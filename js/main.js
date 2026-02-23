@@ -20,7 +20,7 @@ searchBtn.addEventListener("click", async () => {
   renderMovies(movies);
 });
 
-// Buscar ao pressionar Enter (UX profissional)
+// Buscar ao pressionar Enter
 searchInput.addEventListener("keypress", async (e) => {
   if (e.key === "Enter") {
     searchBtn.click();
